@@ -1,2 +1,2 @@
 # Lubuntu
-These are mostly Lubuntu-specific configurations. Might not work on other OS's.
+These are mostly Lubuntu-specific configurations, which is my current OS. These configs might not work on other OS's as far as I know...
