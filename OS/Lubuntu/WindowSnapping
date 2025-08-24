@@ -1,1 +1,57 @@
-windowsnapping goes here
+<!-- 
+  WindowSnapping (Tiling) with OpenBox
+  This is Lubuntu-specific, but only in regards to the keybindings' names. Other OS's have other names for their keybindings. 
+
+  Usage:
+  Ctrl+W(indows)+<arrow>
+  Must be input in that order for it to work!
+  -->
+
+    <!--
+        # HalfLeftScreen
+    -->
+  <keybind key="C-W-Left">
+    <action name="UnmaximizeFull"/>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <y>0</y>
+      <height>100%</height>
+      <width>50%</width>
+    </action>
+  </keybind>
+    <!--
+        # HalfRightScreen
+    -->
+  <keybind key="C-W-Right">
+    <action name="UnmaximizeFull"/>
+    <action name="MoveResizeTo">
+      <x>-0</x>
+      <y>0</y>
+      <height>100%</height>
+      <width>50%</width>
+    </action>
+  </keybind>
+    <!--
+        # HalfUpperScreen
+    -->
+  <keybind key="C-W-Up">
+    <action name="UnmaximizeFull"/>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <y>0</y>
+      <width>100%</width>
+      <height>50%</height>
+    </action>
+  </keybind>
+    <!--
+        # HalfLowerScreen
+    -->
+  <keybind key="C-W-Down">
+    <action name="UnmaximizeFull"/>
+    <action name="MoveResizeTo">
+      <x>0</x>
+      <y>-0</y>
+      <width>100%</width>
+      <height>50%</height>
+    </action>
+  </keybind>
