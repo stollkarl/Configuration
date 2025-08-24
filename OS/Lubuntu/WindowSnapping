@@ -1,6 +1,6 @@
 <!-- 
   WindowSnapping (Tiling) with OpenBox
-  This is Lubuntu-specific, but only in regards to the keybindings' names. Other OS's have other names for their keybindings. 
+  Lubuntu-specific. Keybinding names are different on other OS's. 
 
   Usage:
   Ctrl+W(indows)+<arrow>
